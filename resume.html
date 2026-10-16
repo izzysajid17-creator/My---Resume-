@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iziyan Sajid | Resume</title>
+  <style>
+    :root {
+      --navy: #16324f;
+      --blue: #2d6a8a;
+      --ink: #24313d;
+      --muted: #5d6b78;
+      --line: #dbe3e9;
+      --paper: #ffffff;
+      --background: #f2f5f8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--ink);
+      font: 16px/1.55 Arial, Helvetica, sans-serif;
+    }
+    .page {
+      width: min(900px, calc(100% - 32px));
+      margin: 32px auto;
+      background: var(--paper);
+      padding: 48px 56px;
+      box-shadow: 0 8px 30px rgba(22, 50, 79, .09);
+    }
+    header {
+      border-bottom: 3px solid var(--navy);
+      padding-bottom: 22px;
+      margin-bottom: 25px;
+    }
+    h1 {
+      margin: 0;
+      color: var(--navy);
+      font-size: 34px;
+      letter-spacing: .4px;
+      line-height: 1.15;
+    }
+    .subtitle {
+      margin: 8px 0 12px;
+      color: var(--blue);
+      font-size: 17px;
+      font-weight: bold;
+    }
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 18px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    h2 {
+      color: var(--navy);
+      font-size: 17px;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      margin: 27px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--line);
+    }
+    p { margin: 0 0 10px; }
+    .job { margin-bottom: 18px; }
+    .job-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      align-items: baseline;
+    }
+    h3 {
+      margin: 0;
+      font-size: 16px;
+      color: #1e2f40;
+    }
+    .date {
+      white-space: nowrap;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .org {
+      margin: 2px 0 6px;
+      color: var(--blue);
+      font-size: 14px;
+      font-weight: bold;
+    }
+    ul { margin: 5px 0 0; padding-left: 20px; }
+    li { margin: 4px 0; }
+    .skills { display: grid; grid-template-columns: 1fr 1fr; gap: 9px 22px; }
+    .skill strong { color: var(--navy); }
+    .education-line { display: flex; justify-content: space-between; gap: 12px; }
+    footer {
+      margin-top: 28px;
+      padding-top: 12px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 12px;
+    }
+    @media (max-width: 620px) {
+      .page { padding: 28px 22px; margin: 12px auto; }
+      h1 { font-size: 29px; }
+      .job-head, .education-line { display: block; }
+      .date { display: block; margin-top: 2px; }
+      .skills { grid-template-columns: 1fr; }
+    }
+    @media print {
+      body { background: white; }
+      .page { width: 100%; margin: 0; padding: 20px; box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>Iziyan Sajid</h1>
+      <div class="subtitle">Sustainability and Financial Management Student</div>
+      <div class="contact">
+        <span>Mississauga / Waterloo, Ontario</span>
+        <span>Email: add-your-email@example.com</span>
+        <span>LinkedIn: add-your-linkedin-url</span>
+        <span>GitHub: add-your-github-url</span>
+      </div>
+    </header>
+
+    <section>
+      <h2>Professional Summary</h2>
+      <p>
+        University of Waterloo student pursuing Sustainability and Financial Management,
+        with experience supporting bookkeeping, financial recordkeeping, retail operations,
+        and student-led projects. Comfortable working with Sage 50 and Excel, collaborating
+        with teams, and organizing accurate documentation. Interested in building skills in
+        accounting, finance, assurance, and sustainability.
+      </p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="education-line">
+        <div>
+          <h3>University of Waterloo</h3>
+          <p>Bachelor of Sustainability and Financial Management (Co-op)</p>
+          <p>Relevant coursework: Financial Accounting, Data Analytics, Global Financial Markets</p>
+          <p>President's Scholarship of Distinction</p>
+        </div>
+        <div class="date">Expected January 2030</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <div class="job">
+        <div class="job-head">
+          <h3>Accounting Assistant / Junior Bookkeeper</h3>
+          <span class="date">Jan 2026 – Apr 2026</span>
+        </div>
+        <div class="org">Barakat Accounting Services</div>
+        <ul>
+          <li>Supported bookkeeping and maintained financial records for 100+ client files using Sage 50.</li>
+          <li>Prepared and updated 20+ Excel schedules and financial models to support recordkeeping and reporting.</li>
+          <li>Assisted with account reconciliations, payroll and HST documentation, and organizing client records.</li>
+          <li>Helped prepare and check supporting documents to improve the completeness and accuracy of financial information.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-head">
+          <h3>Store Associate</h3>
+          <span class="date">Oct 2023 – Present</span>
+        </div>
+        <div class="org">Dollarama</div>
+        <ul>
+          <li>Process customer transactions and support cash operations while maintaining accurate point-of-sale records.</li>
+          <li>Receive, organize, and replenish merchandise; identify shipment discrepancies and communicate issues to the team.</li>
+          <li>Support team operations, assist with training, and help coordinate tasks during busy shifts.</li>
+          <li>Maintain organized displays and back-room inventory while following store procedures and safety expectations.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-head">
+          <h3>Fundraising Volunteer</h3>
+          <span class="date">Jun 2023</span>
+        </div>
+        <div class="org">IDRF</div>
+        <ul>
+          <li>Helped collect and track 100+ donations in support of fundraising initiatives.</li>
+          <li>Used Excel to organize and reconcile donation information, supporting clear and accurate records.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Leadership & Projects</h2>
+      <div class="job">
+        <div class="job-head">
+          <h3>Venture Analyst</h3>
+          <span class="date">Jan 2026 – Present</span>
+        </div>
+        <div class="org">WVG</div>
+        <ul>
+          <li>Contribute to research and analysis related to a user-generated content platform with 20,000+ users.</li>
+          <li>Support team initiatives and event coordination, including activities connected to Toronto Tech Week.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <div class="job-head">
+          <h3>Event Operations Volunteer</h3>
+          <span class="date">Jun 2023 – Jul 2023</span>
+        </div>
+        <div class="org">Office of MPP Khalid Rashid — City of Mississauga Event</div>
+        <ul>
+          <li>Helped coordinate event logistics, supplies, and attendee flow for an event with 100+ attendees.</li>
+          <li>Supported community outreach and helped keep event spaces organized.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill"><strong>Accounting:</strong> Bookkeeping, reconciliations, financial documentation</div>
+        <div class="skill"><strong>Software:</strong> Sage 50, Microsoft Excel, Microsoft Office</div>
+        <div class="skill"><strong>Professional:</strong> Teamwork, communication, organization, customer service</div>
+        <div class="skill"><strong>Languages:</strong> English, French, Urdu</div>
+      </div>
+    </section>
+
+    <footer>
+      References available upon request. Please replace the sample email and profile links above before publishing.
+    </footer>
+  </main>
+</body>
+</html>
